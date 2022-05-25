@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>Rock Paper Scissors</header>
+    <div class="main-container">
+      <div class="score-container">
+        <div class="user-tag">user</div>
+        <div class="comp-tag">comp</div>
+        <div class="scores">
+          <span class="user">0</span> : <span class="comp">0</span>
+        </div>
+      </div>
+      <!-- div to output the text when the user makes a choice -->
+      <div class="output-text"></div>
+      <div class="symbol-container">
+        <div class="rock symbol" id="rock">
+          <img src="./rock.png" alt="rock image" />
+        </div>
+        <div class="paper symbol" id="paper">
+          <img src="./paper.png" alt="paper image" />
+        </div>
+        <div class="scissors symbol" id="scissors">
+          <img src="./scissors.png" alt="scissors image" />
+        </div>
+      </div>
+      <div class="text">Make your move.</div>
+      <div class="button">Reset</div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
